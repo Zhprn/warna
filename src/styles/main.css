@@ -6,6 +6,20 @@
     font-weight: 600;
 }
 
+.navbar {
+  display: flex;
+}
+
+.bordered-link {
+  border: 2px solid #FF0000;
+  padding: 5px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: black !important;
+  transition: all 0.3s ease-in-out;
+}
+
+
 .hero-section {
     position: relative;
     text-align: center;
@@ -87,47 +101,45 @@
     margin-left: auto;
     margin-right: auto;
   }
+  
+  body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
 
-  .services {
-    text-align: center;
-    margin: 50px 0;
+  .title {
+    font-size: 43px;
+    font-weight: bold;
   }
   
-  .services h2 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: 20px;
+  .highlight {
+    color: red;
   }
   
-  .services h2 span {
-    color: #007bff;
+  .accordion-item {
+    border: none;
   }
   
-  .service-list {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .accordion-button {
-    background-color: #f8f9fa;
-    color: #333;
-    font-weight: 600;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    transition: background-color 0.3s;
-  }
-  
-  .accordion-button:hover {
-    background-color: #007bff;
-    color: white;
-  }
-  
+.accordion-button {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+}
+
   .accordion-body {
-    background-color: #f1f1f1;
-    padding: 20px;
-    border-top: 1px solid #ddd;
+    font-size: 14px;
+    padding: 10px 15px;
+    width: 100%;
+    color: gray;
   }
 
   .keuntungan-section {
